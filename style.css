@@ -49,6 +49,9 @@ body {
 
 .hero {
     padding: 100px 192px 128px 192px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .text {
@@ -64,6 +67,18 @@ body {
     padding: 0.5rem 2rem;
     border-radius: 10px;
     border: #3882F6;
+}
+
+.img {
+    width: 464px;
+    height: 240px;
+    overflow: hidden;    
+}
+
+.img img {
+    height: auto;
+    width: 464px;
+    margin: -20px auto 0 auto;
 }
 
 h1 { 
