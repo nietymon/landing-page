@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
     font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 .header,
@@ -38,7 +41,8 @@ body {
 }
 
 .links a,
-.text p {
+.text p,
+.footer p {
     color: #E5E7EB;
     font-size: 1.125rem;
 }
@@ -190,6 +194,15 @@ body {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     font-weight: 100;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    position: sticky;
+    top: 100%;
 }
 
 h1 { 
